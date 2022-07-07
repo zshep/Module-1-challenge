@@ -1,13 +1,14 @@
+/*Styling for all the things*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Back ground color for whole site*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Heading and navigation bar styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,11 +46,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*  Informational text stlying */
 p {
     font-size: 16px;
 }
-
+/* Main marketing picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +60,7 @@ p {
     background-position: center;
 }
 
+/* main content formating */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +77,9 @@ p {
     margin-left: 20px;
 }
 
+/* aside content (side bar) containing benefits    */
+
+/* styling for aside benefit content  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +121,7 @@ p {
     text-align: center;
 }
 
+/* styling for side bar images  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +139,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*  styling for main conetent   */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +166,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* styling for main content images   */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +179,7 @@ p {
     max-height: 200px;
 }
 
+/* styling for main content text */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +195,8 @@ p {
     font-size: 36px;
 }
 
+
+/* footer styling   */
 .footer {
     padding: 30px;
     clear: both;
