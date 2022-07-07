@@ -1,4 +1,4 @@
-/*Styling for all the things*/
+/*Styling for all the boxes */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +8,12 @@
 body {
     background-color: #d9dcd6;
 }
+
+/*  Informational text stlying */
+p {
+    font-size: 16px;
+}
+
 /* Heading and navigation bar styling*/
 .header {
     padding: 20px;
@@ -46,10 +52,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/*  Informational text stlying */
-p {
-    font-size: 16px;
-}
+
 /* Main marketing picture */
 .hero {
     height: 800px;
